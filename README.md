@@ -1,7 +1,7 @@
-# <b>List where functions are used in a [Codeigniter 4](https://www.codeigniter.com/user_guide/intro/index.html) application</b>
+# <b>List where functions are used in a <a href="https://www.codeigniter.com/user_guide/intro/index.html" target="_blank">Codeigniter 4</a>  application</b>
 Visualize where controller and model functions are being used in Codeigniter 4
 
-This project is inspired by this repository https://github.com/gordonmurray/codeigniter-list-unused-functions
+This project is inspired by this repository <a href="https://github.com/gordonmurray/codeigniter-list-unused-functions" target="_blank">codeigniter-list-unused-functions!</a> by <a href="https://github.com/gordonmurray" target="_blank">Gordon Murray <em>(gordonmurray)</em></a>
 
 
 ## How to use
