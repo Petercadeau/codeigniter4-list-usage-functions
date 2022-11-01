@@ -117,7 +117,7 @@ class CodeReviewController extends BaseController
      * @param array $files_source
      * @return array files_source array
      */
-    function function_usage_in_group_of_files($files_source, $files_target, $whose_funcions)
+    public function function_usage_in_group_of_files($files_source, $files_target, $whose_funcions)
     {
         helper('file');
         $updated_files_source = array();
@@ -157,7 +157,7 @@ class CodeReviewController extends BaseController
         return $updated_files_source;
     }
 
-    function findFunctionInRoutes($controller, $function)
+    public function findFunctionInRoutes($controller, $function)
     {
         $routesService = \Config\Services::routes();
         $routes = $routesService->getRoutes('get');
